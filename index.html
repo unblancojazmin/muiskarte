@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Normalizador normalize.css: Equilibra los estilos entre los Navegadores -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!-- Tus archivos CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500;1,600&family=Quintessential&display=swap" rel="stylesheet">
+        <title>MuiskARTE | Tienda de joyería artesana</title>
+        <!-- CARRUSEL SWIPER FROM CDN -->
+        <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <script
+                src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+        </script>
+    </head>
+    <body id="body">
+        <header class="header">
+            <div class="shippings-container">
+                <p class="shippings-container__text">
+                    |Envíos gratuitos a partir de 50 | Devoluciones 30 días. +INFO|
+                </p>
+            </div>
+            <div class="container header__container">
+                <div class="container container-logo">
+                    <a role="heading" aria-level="1" href="/" class="link">
+                        <img class="image" src="img/header/header-logo-32.webp" alt="Logo Muiskarte, Tienda de joyería artesana">
+                    </a>
+                </div>
+                <div class="container menu-container">
+                    <nav class="menu">
+                        <ul class="ul-reset menu__ul">
+                            <li class="menu__item"><a href="#" class="link menu__link">Anillos</a></li>
+                            <li class="menu__item"><a href="#" class="link menu__link">Pendintes</a></li>
+                            <li class="menu__item"><a href="#" class="link menu__link">Collares</a></li>
+                            <li class="menu__item"><a href="#" class="link menu__link">Pulseras</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="container container-icons">
+                    <button class="button icon__button" aria-label="Search">
+                        <img class="image" src="img/zondicons/search.svg" alt="Search">
+                    </button>
+                    <button class="button icon__button" aria-label="Log in">
+                        <img class="image" src="img/zondicons/user.svg" alt="Log in">
+                    </button>
+                    <button class="button icon__button" aria-label="Favoritos">
+                        <img class="image" src="img/zondicons/heart.svg" alt="Favoritos">
+                    </button>
+                    <button class="button icon__button" aria-label="Carrito de la compra">
+                        <img class="image" src="img/zondicons/shopping-cart.svg" alt="Carrito de la compra">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container back-container">
+                    <div class="container hero__text-container">
+                        <h2 class="hero__tittle">Tienda de joyería artesana, Valencia</h2>
+                        <p class="hero__text">En MuiskARTE nos esforzamos por apoyar la joyería artesanal. Ofrecemos piedras naturales y diseños exclusivos a tu disposición.</p>
+                        <h3 class="texto-publicitario">
+                            <span class="span-disenyos">_diseños</span> <span class="span-unicos">únicos</span> <span class="span-para-personas">para</span> <span class="span-para-personas">personas</span> <span class="span-unicas">únicas</span>
+                        </h3>
+                    </div>
+                    <div class="container hero-cards__container">
+                        <h2 class="tittle tittle--section-cards">Descubre nuestros diseños exclusivos</h2>
+                        <div class="container hero-cards-group-container">
+                            <article class="hero-card">
+                                <div class="container hero-card__container">
+                                    <img src="img/hero/hero-tarjetas/anillo-pliegues-muiskarte.webp" alt="Anillo Pliegues" class="image card-image--shadow">
+                                    <h3 class="hero-card__name">Anillo Pliegue</h3>
+                                    <p class="hero-card__price">96.00 &euro;</p>
+                                    <p class="hero-card__description">
+                                        Descubre la sofisticación incomparable del Anillo Pliegues, una obra maestra de diseño exclusivo en oro.
+                                    </p>
+                                    <button class="button buy-button" aria-label="Comprar">Comprar</button>
+                                </div>
+                            </article>
+                            <article class="hero-card">
+                                <div class="container hero-card__container">
+                                    <img src="img/hero/hero-tarjetas/pendientes-geo-muiskarte.webp" alt="Pendientes Geo" class="image card-image--shadow">
+                                    <h3 class="hero-card__name">Pendientes Geo</h3>
+                                    <p class="hero-card__price">107.00 &euro;</p>
+                                    <p class="hero-card__description">
+                                        Explora la fusión perfecta entre geometría y lujo con nuestros Pendientes Geo en Oro.
+                                    </p>
+                                    <button class="button buy-button" aria-label="Comprar">Comprar</button>
+                                </div>
+                            </article>
+                            <article class="hero-card">
+                                <div class="container hero-card__container">
+                                    <img src="img/hero/hero-tarjetas/collar-juegos-muiskarte.webp" alt="Collar Juegos" class="image card-image--shadow">
+                                    <h3 class="hero-card__name">Collar Juegos</h3>
+                                    <p class="hero-card__price">112.00 &euro;</p>
+                                    <p class="hero-card__description">
+                                        Sumérgete en la sofisticación del Collar Juegos, una pieza excepcional que combina la sencillez del latón con piedras preciosas en formas geométricas.
+                                    </p>
+                                    <button class="button buy-button" aria-label="Comprar">Comprar</button>
+                                </div>
+                            </article>
+                            <article class="hero-card">
+                                <div class="container hero-card__container">
+                                    <img src="img/hero/hero-tarjetas/pulsera-kirt-muiskarte.webp" alt="Pulsera Kirt" class="image card-image--shadow">
+                                    <h3 class="hero-card__name">Pulsera Kirt</h3>
+                                    <p class="hero-card__price">134.00 &euro;</p>
+                                    <p class="hero-card__description">
+                                        Descubre la Pulsera Kirt, una joya exquisita que fusiona la calidez del oro con la belleza atemporal de las piedras preciosas.
+                                    </p>
+                                    <button class="button buy-button" aria-label="Comprar">Comprar</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="joyeria-de-autor">
+                <div class="container joyeria-de-autor__container">
+                    <div class="container texts-container">
+                        <h2 class="tittle joyeria-de-autor__tittle">Joyería de autor</h2>
+                        <p class="joyeria-de-autor__text joyeria-de-autor__text--sin-margen-superior">Fabricamos arte, piezas únicas de joyería artesanal. Fusionamos el estilo de joyería contemporánea con la étnica y tribal.
+                        </p>
+                        <p class="joyeria-de-autor__text">Nuestros anillos, pendientes, pulseras y collares están hechas a mano con la más alta calidad.
+                        </p>
+                        <p class="joyeria-de-autor__text">Ideales para lucirlas tu día a día o más bien para ese evento tan especial.
+                        </p>
+                    </div>
+                    <div class="container joyeria-de-autor__images">
+                        <div class="container container-img-autor">
+                            <img class="image" src="img/joyeria-de-autor/joyeria-de-autor-muiskarte.webp" alt="Pendientes en madera">
+                        </div>
+                        <div class="container container-redes">
+                            <h3 class="tittle tittle--redes">Siguenos en redes</h3>
+                            <button class="button icon__button" aria-label="Facebook">
+                                <img class="image" src="img/joyeria-de-autor/facebook.png" alt="Facebook">
+                            </button>
+                            <button class="button icon__button" aria-label="Instagram">
+                                <img class="image" src="img/joyeria-de-autor/instagram.png" alt="Instagram">
+                            </button>
+                            <button class="button icon__button" aria-label="Pinterest">
+                                <img class="image" src="img/joyeria-de-autor/pinterest.png" alt="Pinterest">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="product-section">
+                <div class="container global-container">
+                    <div class="container">
+                        <h2 class="tittle">Diseños con piedras naturales y metal</h2>
+                    </div>
+                    <div class="container products-container">
+                        <article class="card1">
+                            <div class="container product-card">
+                                <img src="img/product-section/collar-fenix-muiskarte.webp" alt="Collar Fenix" class="image image--shadow">
+                                <h3 class="tittle tittle--h3">Collar Fénix</h3>
+                                <p class="product-card__price">91.00 &euro;</p>
+                            </div>
+                        </article>
+                        <article class="card2">
+                            <div class="container product-card">
+                                <img src="img/product-section/anillo-kalatrava-muiskarte.webp" alt="Anillo Kalatrava" class="image">
+                                <h3 class="tittle tittle--h3">Anillo Kalatrava</h3>
+                                <p class="product-card__price">85.00 &euro;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="container product-card product-card--3">
+                                <img src="img/product-section/anillo-kurva-muiskarte.webp" alt="Anillo Kurva" class="image">
+                                <h3 class="tittle tittle--h3">Anillo Kurva</h3>
+                                <p class="product-card__price">97.00 &euro;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="container product-card product-card--4">
+                                <img src="img/product-section/pendientes-calados-muiskarte.webp" alt="Pendientes Calados" class="image image--shadow">
+                                <h3 class="tittle tittle--h3">Pendientes Calados</h3>
+                                <p class="product-card__price">52.00 &euro;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="container product-card product-card--5">
+                                <img src="img/product-section/pulsera-labrador-muiskarte.webp" alt="Pulsera Labrador" class="image image--shadow">
+                                <h3 class="tittle tittle--h3">Pulsera Labrador</h3>
+                                <p class="product-card__price">64.00 &euro;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="container product-card product-card--6">
+                                <img src="img/product-section/pendientes-lapiz-lazuli-muiskarte.webp" alt="Pendientes Lapiz Lazuli" class="image image--shadow">
+                                <h3 class="tittle tittle--h3">Pendientes Lápiz Lázuli</h3>
+                                <p class="product-card__price">84.00 &euro;</p>
+                            </div>
+                        </article>
+                    </div>
+                    <button class="button ver-mas-button" aria-label="Cargar más productos">Ver más</button>
+                </div>
+            </section>
+            <section class="container cta-disenyo-artesano">
+                <div class="container cta-disenyo-artesano__container">
+                    <img src="img/cta-disenyo-artesano/disenyo-artesano-muiskarte.webp" alt="Diseño original artesano" class="image">
+                    <h3 class="tittle cta-disenyo-artesano__tittle">
+                        Shop Online
+                    </h3>
+                    <a class="link visitar-tienda-link" href="#">Visitar tienda</a>
+                </div>
+            </section>
+            <section class="gama-productos">
+                <h2 class="tittle gama-productos__tittle">Descubre nuestra gama de productos</h2>
+                <h4 class="h4-tittle">Joyería contemporánea con matices étnicos</h4>
+                <div class="container gama-productos__container">
+                    <article class="gama-productos__article gama-productos__article--1">
+                        <div class="container gama-productos__card">
+                            <img class="image" src="img/gama-productos-section/anillos-muiskarte.webp" alt="Gama anillos">
+                            <h5 class="h5-tittle">Anillos exclusivos</h5>
+                            <h3 class="tittle tittle--h3">Anillos</h3>
+                            <p class="gama-productos__description">En MuiskARTE creamos anillos con personalidad. Anillos en plata y oro, ideales para lucir en ocasiones especiales.</p>
+                        </div>
+                        <a class="link gama-productos__link" href="#">+ Anillos</a>
+                    </article>
+                    <article class="gama-productos__article gama-productos__article--2">
+                        <div class="container gama-productos__card">
+                            <img class="image" src="img/gama-productos-section/pendientes-muiskarte.webp" alt="Gama pendientes">
+                            <h5 class="h5-tittle">Pendientes con piedras</h5>
+                            <h3 class="tittle tittle--h3">Pendientes</h3>
+                            <p class="gama-productos__description">Fabricamos en Valencia pendientes originales con piedras o sin. En oro y/o plata.</p>
+                        </div>
+                        <a class="link gama-productos__link" href="#">+ Pendientes</a>
+                    </article>
+                    <article class="gama-productos__article gama-productos__article--3">
+                        <div class="container gama-productos__card">
+                            <img class="image" src="img/gama-productos-section/collares-muiskarte.webp" alt="Gama anillos">
+                            <h5 class="h5-tittle">Collares exóticos</h5>
+                            <h3 class="tittle tittle--h3">Collares</h3>
+                            <p class="gama-productos__description">En MuiskARTE te ofrecemos collares de múltiples estilos. Algunos con piedras preciosas.</p>
+                        </div>
+                        <a class="link gama-productos__link" href="#">+ Collares</a>
+                    </article>
+                    <article class="gama-productos__article gama-productos__article--4">
+                        <div class="container gama-productos__card">
+                            <img class="image" src="img/gama-productos-section/pulseras-muiskarte.webp" alt="Gama anillos">
+                            <h5 class="h5-tittle">Pulseras de oro</h5>
+                            <h3 class="tittle tittle--h3">Pulseras</h3>
+                            <p class="gama-productos__description">Nuestras pulseras no pasan desapercibidas. Te brindamos todo el diseño en piezas a tu estilo. </p>
+                        </div>
+                        <a class="link gama-productos__link" href="#">+ Pulseras</a>
+                    </article>
+                </div>
+            </section>
+            <section class="muiskarte">
+                <div class="container muiskarte__container">
+                    <h2 class="tittle">MuiskARTE</h2>
+                    <p class="muiskarte__description">En MuiskARTE nos esforzamos por apoyar el mercado de
+                        piezas de joyería artesanal. Siendo conscientes del
+                        labor del artesano y del valor de cada pieza única que
+                        se produce en nuestro taller. Te ofrecemos trabajos de
+                        alta calidad y valor estético/cultural.
+                        Nos encanta crear e innovar permanentemente. MuiskARTE
+                        es un viaje al crecimiento y la creación, siempre en
+                        contacto con la Naturaleza y transformando los más
+                        bellos minerales que la tierra nos ofrece.
+                        Te invitamos a visitar nuestra Tienda y conocer nuestros
+                        trabajos!
+                    </p>
+                    <a class="link muiskarte__link" href="#">Ver productos</a>
+                </div>
+            </section>
+            <section class="taller-joyeria">
+                <h2 class="tittle taller-joyeria__tittle">Taller de Joyería Artesanal en Valencia</h2>
+                <h4 class="h4-tittle">Conviértete en autor de tus propias ideas</h4>
+                <div class="taller-joyeria__container">
+                    <div class="taller-joyeria__info">
+                        <span class="span-animate">Anímate</span>
+                        <span class="span-fabrica">fabrica</span>
+                        <span class="span-tu-propia">tu propia</span>
+                        <span class="span-joya">joya</span>
+                        <p class="taller-joyeria__edition">Edición enero/julio</p>
+                        <a class="link taller-joyeria__link" href="#">Apúntate</a>
+                    </div>
+                    <div class="taller-joyeria__image-container">
+                        <img class="image" src="img/taller-joyeria-section/taller-joyeria-muiskarte.webp" alt="Trabajo final de alumno de taller de joyería">
+                    </div>
+                </div>
+            </section>
+            <!-- Slider main container -->
+            <section class="sale">
+                <h2 class="tittle sale__tittle-desktop">Sale!Sale!Sale!Sale!Sale!Sale!</h2>
+                <h2 class="tittle sale__tittle-movil">Sale!Sale!Sale!</h2>
+                <div class="container-sale">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/pendientes-muisk.webp" alt="Pendientes Muisk">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/collar-arko-iris.webp" alt="Collar Arko Iirs">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/anillo-kristal.webp" alt="Anillo Kristal">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/pulsera-trama.webp" alt="Pulsera Trama">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/collar-kollage.webp" alt="Collar Kollage">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="img/sale-section/pendientes-zulka.webp" alt="Pendientes Blue">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+
+                    </div>
+                </div>
+                <a class="link sale__link" href="#">Ver mas descuentos</a>
+                <div class="promociones">
+                    <h4 class="h4-tittle">Promociones</h4>
+                    <form>
+                        <label>
+                            <input class="placeholder-promo" type="email" placeholder="Escribe tu email">
+                        </label>
+                    </form>
+                    <form class="pol-privacidad">
+                        <label class="pol-privacidad__text">
+                            <input type="checkbox" name="politica-privacidad">
+                            Acepto políticas de privacidad
+                        </label>
+                        <input class="pol-privacidad__ok-button" type="submit" value="OK">
+                    </form>
+                </div>
+            </section>
+            <section class="masonry">
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/1.webp" alt="" class="image masonry__image masonry__image--1">
+                </p>
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/2.webp" alt="" class="image masonry__image masonry__image--2">
+                </p>
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/3.webp" alt="" class="image masonry__image masonry__image--3">
+                </p>
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/4.webp" alt="" class="image masonry__image masonry__image--4">
+                </p>
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/5.webp" alt="" class="image masonry__image masonry__image--5">
+                </p>
+                <p class="masonry__slide">
+                    <img src="img/masonry-section/6.webp" alt="" class="image masonry__image masonry__image--6">
+                </p>
+            </section>
+            <section class="container masonry-instagram">
+                <p><span class="masonry-instagram__tittle">#muiskARTE</span></p>
+            </section>
+        </main>
+        <footer class="container footer">
+            <section class="help-and-support">
+                <article class="help-and-support__article">
+                    <div class="help-and-support__card help-and-support__card--1">
+                        <figure>
+                            <img class="image help-and-support__image" src="img/footer/help-support/soporte-muiskarte.webp" alt="Ayuda y soporte">
+                        </figure>
+                        <h4 class="help-and-support__tittle">Necesitas ayuda?</h4>
+                        <p class="help-and-support__text">Nuestro equipo de atención al cliente está para resolver tus problemas.</p>
+                        <div class="help-and-support__icon-flex">
+                            <img class="image image-icon" src="img/footer/help-support/telefono.png" alt="Correo de contacto">
+                            <a class="link help-and-support__link" href="tel:34123456789">123456789</a>
+                        </div>
+                        <div class="help-and-support__icon-flex">
+                            <img class="image image-icon" src="img/footer/help-support/email.png" alt="Correo de contacto">
+                            <a class="link help-and-support__link" href="mailto:muiskarte-contacto@muiskarte.com">Contáctanos</a>
+                        </div>
+                        <div class="help-and-support__icon-flex">
+                            <img class="image image-icon" src="img/footer/help-support/whatsapp.png" alt="Whatsapp">
+                            <a class="link help-and-support__link" href="https://wa.me/34123456789">Whatsapp</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="help-and-support__article">
+                    <div class="help-and-support__card help-and-support__card--2">
+                        <figure>
+                            <img src="img/footer/help-support/devoluciones-muiskarte.webp" alt="Devoluciones">
+                        </figure>
+                        <h4 class="help-and-support__tittle">Devoluciones</h4>
+                        <p class="help-and-support__text">En piuntos de recogida, gratis. Otras modalidades consultar.
+                        </p>
+                        <a class="link help-and-support__link" href="#">Condiciones</a>
+                    </div>
+                </article>
+                <article class="help-and-support__article">
+                    <div class="help-and-support__card help-and-support__card--3">
+                        <figure>
+                            <img src="img/footer/help-support/ubicacion-pedido.webp" alt="Ubicación de pedido">
+                        </figure>
+                        <h4 class="help-and-support__tittle">Dónde está mi pedido?</h4>
+                        <p class="help-and-support__text">Encuentra tu pedido.</p>
+                        <a class="link help-and-support__link" href="#">Seguir pedido</a>
+                    </div>
+                </article>
+                <article class="help-and-support__article">
+                    <div class="help-and-support__card help-and-support__card--4">
+                        <figure>
+                            <img src="img/footer/help-support/envios-muiskarte36.webp" alt="Ubicación de pedido">
+                        </figure>
+                        <h4 class="help-and-support__tittle">Entrega gratuita</h4>
+                        <p class="help-and-support__text">Para envíos superiores a 100 &euro;</p>
+                    </div>
+                </article>
+            </section>
+            <section class="section-image">
+                <div class="container section-image__container">
+                    <img class="image" src="img/footer/ilustracion-png.webp" alt="Ilustración Muiskarte">
+                </div>
+            </section>
+            <section class="follow-muiskarte">
+                    <div class="follow-muiskarte__container">
+                        <h4 class="follow-muiskarte__tittle">
+                            Folllow#<span class="span-muiskarte">muiskARTE</span>
+                        </h4>
+                        <div class="follow-muiskarte__container-links">
+                            <a href=https://facebook.com/" class="link follow-muiskarte__link">
+                                <img src="img/footer/seccion-follow-muiskarte/facebook.png" alt="Facebook" class="image">
+                            </a>
+                            <a href=https://instagram.com/" class="link follow-muiskarte__link">
+                                <img src="img/footer/seccion-follow-muiskarte/instagram.png" alt="Instagram" class="image">
+                            </a>
+                            <a href=https://pinterest.com/" class="link follow-muiskarte__link">
+                                <img src="img/footer/seccion-follow-muiskarte/pinterest.png" alt="Pinterest" class="image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="follow-muiskarte__promociones">
+                        <h4 class="follow-muiskarte__tittle">Promociones</h4>
+                        <form>
+                            <label>
+                                <input class="placeholder-font" type="email" placeholder="Escribe tu email">
+                            </label>
+                        </form>
+                        <form class="politica-privacidad">
+                            <label class="politica-privacidad__text">
+                                <input type="checkbox" name="politica-privacidad">
+                                Acepto políticas de privacidad
+                            </label>
+                                <input class="politica-privacidad__ok" type="submit" value="OK">
+                        </form>
+                    </div>
+            </section>
+            <section class="legal-menu">
+                <div class="legal-menu__container legal-menu__container--1">
+                    <h4 class="legal-menu__tittle">Atención al cliente</h4>
+                    <nav class="legal-menu__nav">
+                        <ul class="ul-reset legal-menu__ul">
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Cambios</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Devoluciones</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">FAQ</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Contáctanos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="legal-menu__container legal-menu__container--2">
+                    <h4 class="legal-menu__tittle">Nuestra marca</h4>
+                    <nav class="legal-menu__nav">
+                        <ul class="ul-reset legal-menu__ul">
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Sobre nosotros</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Talleres</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Regístrate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="legal-menu__container legal-menu__container--3">
+                    <h4 class="legal-menu__tittle">Privacidad y uso</h4>
+                    <nav class="legal-menu__nav">
+                        <ul class="ul-reset legal-menu__ul">
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Normas de MuiskARTE</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Política de cookies</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Política de privacidad</a></li>
+                            <li class="legal-menu__item"><a href="#" class="link legal-menu__link">Política de uso</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="ancla-volver-arriba">
+                <a class="link" href="#body">Volver arriba  ▲</a>
+            </section>
+            <section class="copyright">
+                <p>Reservados todos los derechos | 2023 MuiskARTE</p>
+            </section>
+        </footer>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                slidesPerView: 1,
+                height: 455,
+                direction: 'horizontal',
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    600: {
+                        slidesPerView: 3,
+                        height: 455
+                    }
+                }
+
+            });
+
+        </script>
+    </body>
+</html>
